@@ -1,1 +1,0 @@
-# Svergie_fr-gesport.pyt

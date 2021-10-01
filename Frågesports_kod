@@ -1,0 +1,164 @@
+input("Välkommen till denna frågesporten! Bara så att du vet om du inte har Å Ä eller Ö på ditt tangentbord andvänd A och O istället!")
+spelarens_namn = input("Innan vi börjar vill jag fråga dig vad du heter!")
+points = 0
+points = int(points)
+ingame_meter = "Du har " + str(points) + " poäng!"
+rätt = "Rätt svar! +1 Poäng!"
+fel = "Fel svar. Inga poäng denna rundan"
+ 
+question1 = input("Fråga 1. Vad heter sveriges största ö?")
+answer1 = ("Gotland")
+ 
+if question1 == answer1:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question1 == "gotland":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else:
+   print(fel)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+ 
+question2 = input(" Fråga 2. Vad heter sveriges tredje största stad?")
+answer2 = ("Malmö")
+ 
+if question2 == answer2:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question2 == "malmö":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question2 == "Malmo":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question2 == "malmo":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else:
+   print(fel)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+ 
+question3 = input("Fråga 3. Vad heter sveriges näst största stad?")
+answer3 = ("Göteborg")
+ 
+if question3 == answer3:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question3 == "göteborg":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question3 == "Goteborg":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question3 == "goteborg":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question3 == "Gothenburg":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question3 == "gothenburg":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else:
+   print(fel)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+ 
+question4 = input("Fråga 4. Vad heter sveriges största stad?")
+answer4 = ("Stockholm")
+ 
+if question4 == answer4:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question4 == "stockholm":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else:
+   print(fel)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+ 
+question5 = input("Fråga 5. Vad heter sveriges största sjö?")
+answer5 = ("Vänern")
+ 
+if question5 == answer5:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question5 == "vänern":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question5 == "Vanern":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question5 == "vanern":
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else:
+   print(fel)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+ 
+question6 = input("Sista Frågan! Fråga 6. Vilket år blev landskapet Skåne svenskt?")
+question6 = int(question6)
+answer6 = 1660
+ 
+if question6 == answer6:
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question6 == int(1658):
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+elif question6 == int(1659):
+   print(rätt)
+   points = int(points) + int(1)
+   ingame_meter = "Du har " + str(points) + " poäng!"
+   print(ingame_meter)
+else: 
+   print(fel)
+ 
+points = str(points)
+print("Tack så hemskt mycket " + spelarens_namn + " för att du spelade och förhoppnigsvis gillade detta spelet! Här kommer dina resultat!")
+print(spelarens_namn + " svarade rätt på " + points + " frågor, och fick " + points + "poäng! Hejdå!!!!!!!")
+
