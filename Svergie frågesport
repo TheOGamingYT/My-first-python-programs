@@ -1,3 +1,5 @@
+#Detta är en frågesport om sverige!
+
 input("Välkommen till denna frågesporten! Bara så att du vet om du inte har Å Ä eller Ö på ditt tangentbord andvänd A och O istället!")
 spelarens_namn = input("Innan vi börjar vill jag fråga dig vad du heter!")
 questions_right = 0
