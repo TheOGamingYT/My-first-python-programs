@@ -186,6 +186,11 @@ else:
 questions_right = str(questions_right)
 points = str(points)
 
+if questions_right == "6":
+    questions_right = "Alla" 
+else:
+    questions_right = str(questions_right) 
+
 if points == "10":
     points = "Max"
 else:
