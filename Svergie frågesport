@@ -183,15 +183,35 @@ elif question6 == int(1659):
 else:  
     print(fel)
 
+question7 = input("Fråga 7. Vad heter sveriges största landskap?")
+answer7 = ("Lappland")
+
+if question7 == answer7:
+    print(rätt)
+    questions_right = int(questions_right) + int(1)
+    points = int(points) + int(1)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+elif question7 == "lappland": 
+    print(rätt)
+    questions_right = int(questions_right) + int(1)
+    points = int(points) + int(1)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+else:
+    print(fel)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+
 questions_right = str(questions_right)
 points = str(points)
 
-if questions_right == "6":
+if questions_right == "7":
     questions_right = "Alla" 
 else:
     questions_right = str(questions_right) 
 
-if points == "10":
+if points == "11":
     points = "Max"
 else:
     points = str(points) 
