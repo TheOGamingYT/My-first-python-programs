@@ -203,15 +203,36 @@ else:
     ingame_meter = "Du har " + str(points) + " poäng!"
     print(ingame_meter)
 
+question8 = input("Fråga 8. Vilket är sveriges minsta landskap?")
+answer8 = ("Öland")
+
+if question8 == answer8:
+    print(rätt)
+    questions_right = int(questions_right) + int(1)
+    points = int(points) + int(1)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+elif question8 == "öland": 
+    print(rätt)
+    questions_right = int(questions_right) + int(1)
+    points = int(points) + int(1)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+else:
+    print(fel)
+    ingame_meter = "Du har " + str(points) + " poäng!"
+    print(ingame_meter)
+
+
 questions_right = str(questions_right)
 points = str(points)
 
-if questions_right == "7":
+if questions_right == "8":
     questions_right = "Alla" 
 else:
     questions_right = str(questions_right) 
 
-if points == "11":
+if points == "12":
     points = "Max"
 else:
     points = str(points) 
