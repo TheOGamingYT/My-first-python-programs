@@ -158,7 +158,7 @@ else:
     ingame_meter = "Du har " + str(points) + " poäng!"
     print(ingame_meter)
 
-question6 = input("Sista Frågan! Fråga 6. Vilket år blev landskapet Skåne svenskt?")
+question6 = input("Fråga 6. Vilket år blev landskapet Skåne svenskt?")
 question6 = int(question6)
 answer6 = 1660
 
